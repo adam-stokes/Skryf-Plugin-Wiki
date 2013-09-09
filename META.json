@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Mojolicious Plugin",
    "author" : [
       "Adam Stokes <adamjs@cpan.org>"
    ],
@@ -46,6 +46,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/skryf/App-skryf-Plugin-Wiki/issues"
+      },
+      "homepage" : "https://github.com/skryf/App-skryf-Plugin-Wiki",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/skryf/App-skryf-Plugin-Wiki.git",
+         "web" : "https://github.com/skryf/App-skryf-Plugin-Wiki"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Adam Stokes <adam.stokes@ubuntu.com>"
+   ]
 }
 

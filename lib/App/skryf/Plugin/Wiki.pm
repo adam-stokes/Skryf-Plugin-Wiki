@@ -7,6 +7,8 @@ use Mango::BSON ':bson';
 
 use App::skryf::Plugin::Wiki::Controller;
 
+our $VERSION = '0.01';
+
 my %defaults = (
     indexPath       => '/pages/',
     pagesPath       => '/pages/:slug',
