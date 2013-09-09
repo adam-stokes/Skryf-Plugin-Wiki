@@ -1,0 +1,17 @@
+% layout 'auth';
+
+%= t 'div', id => 'admin-body' => begin
+  %= t 'h3' => 'Update: '. $page->{slug}
+    % if (my $msg = flash 'message') {
+    <b><%= $msg %></b>
+    % }
+  %= form_for url_for("admin_wiki_update") => ( method => 'post' ) => begin
+  %= hidden_field slug => $page->{slug}
+  %= t 'span' => 'Body'
+  <div class="wmd-panel">
+    <div id='wmd-button-bar'></div>
+    %= text_area "content" => $page->{content},  class => "wmd-input", id => 'wmd-input'
+  </div>
+  %= submit_button 'Update', class => 'btn'
+  %= end
+%= end
