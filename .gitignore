@@ -1,0 +1,7 @@
+/App-skryf-Plugin-Wiki-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
